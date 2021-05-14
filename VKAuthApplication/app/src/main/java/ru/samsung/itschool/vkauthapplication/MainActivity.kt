@@ -23,12 +23,18 @@ class MainActivity : AppCompatActivity() {
         binding.btLogin.setOnClickListener({
             VK.login(this, arrayListOf(VKScope.WALL, VKScope.PHOTOS))
         })
+
         binding.btLogoff.setOnClickListener({
             VK.logout()
-            if(VK.isLoggedIn()) binding
+            if(!VK.isLoggedIn()) binding.tvRes.text="Not login to VK"
         })
     }
 
+    override fun onStart() {
+        super.onStart()
+        if(!VK.isLoggedIn()) binding.tvRes.text="Not login to VK"
+        else binding.tvRes.text="Now logged in to VK"
+    }
      override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         val callback = object: VKAuthCallback {
             override fun onLogin(token: VKAccessToken) {
