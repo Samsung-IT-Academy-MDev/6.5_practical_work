@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "332313536009",
+    "project_id": "unified-mender-313016",
+    "storage_bucket": "unified-mender-313016.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332313536009:android:0540f024e01eddb54d3ad8",
+        "android_client_info": {
+          "package_name": "ru.samsung.itschool.googleauthapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332313536009-2cc0l4eub58ieeiji75i2o2ei99gvf1v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.samsung.itschool.googleauthapplication",
+            "certificate_hash": "48045ea266717836384d8e5ab4a24402f7ab9432"
+          }
+        },
+        {
+          "client_id": "332313536009-31r08q7l577t8k5lmg3qpvorpe8nbt66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9HjyKWhZ0IL5TKoT5TlBQALhOOYVddM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332313536009-31r08q7l577t8k5lmg3qpvorpe8nbt66.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
