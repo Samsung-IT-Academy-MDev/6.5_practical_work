@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "976127320808",
+    "project_id": "fir-auth-41ade",
+    "storage_bucket": "fir-auth-41ade.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976127320808:android:884bdb4c1b506ee6089f5d",
+        "android_client_info": {
+          "package_name": "ru.samsung.itschool.firebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976127320808-eppdobreg9ho8p9qkge0129m75c6co8c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.samsung.itschool.firebaseauth",
+            "certificate_hash": "48045ea266717836384d8e5ab4a24402f7ab9432"
+          }
+        },
+        {
+          "client_id": "976127320808-g1ij5b74ecs9brc55vella56eh0o5m7g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6TMdzAPz31_z6SZj1xwl45ziD7tjf7fk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976127320808-g1ij5b74ecs9brc55vella56eh0o5m7g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
