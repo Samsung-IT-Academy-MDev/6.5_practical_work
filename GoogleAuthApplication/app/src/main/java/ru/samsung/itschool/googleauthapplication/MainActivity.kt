@@ -2,7 +2,6 @@ package ru.samsung.itschool.googleauthapplication
 
 import android.content.Intent
 import android.graphics.BitmapFactory
-import android.net.Uri
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -18,11 +17,9 @@ import com.google.android.gms.common.api.ApiException
 import com.google.android.gms.common.api.GoogleApiClient
 import com.google.android.gms.tasks.Task
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import okhttp3.*
 import ru.samsung.itschool.googleauthapplication.databinding.ActivityMainBinding
 import java.io.InputStream
 import java.net.URL
-import android.os.AsyncTask as AsyncTask
 
 
 class MainActivity : AppCompatActivity(), GoogleApiClient.OnConnectionFailedListener {
